@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cypress": "^9.0.0",
+    "faker": "^5.5.3"
+  },
+  "scripts": {
+    "open": "./node_modules/.bin/cypress open"
+
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
