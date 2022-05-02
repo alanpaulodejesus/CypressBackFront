@@ -10,6 +10,7 @@ npm install cypress@3.6.0
 ./node_modules/.bin/cypress open 
 npx cypress open
 
+
 (ajuda o vs code na identificação do cypress e melhor apresentação de anot)
 /// <reference types ="cypress"/>
 
