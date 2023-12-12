@@ -68,7 +68,6 @@ describe('Test Back End Blip', ()=>{
             failOnStatusCode: false
         })
         .as('response');
-        cy.get('@response').its('status').should('be.equal', 200);
-        //cy.get('@response.resource.id').should('exist');             
+        cy.get('@response').its('status').should('be.equal', 200);   
     })
 })  
